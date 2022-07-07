@@ -2,38 +2,28 @@
 
 /**
  *
- *  * _isupper - evalue if letter is uppercase .
+ *  * _isupper - function
  *
- *   *@c: print int
+ *   *
  *
- *    * Return: Always 0.
+ *    * @c: parameter
  *
- *     */
-
-
+ *     *
+ *
+ *      * Return: return value
+ *
+ *       */
 
 int _isupper(int c)
 
 {
 
-	if (c >= 'A' && c <= 'Z')
+		if (c >= 65 && c <= 90)
 
-	{
+					return (1);
 
-		return (1);
+			else
 
-	}
-
-
-
-	else
-
-	{
-
-		return (0);
-
-	}
-
-
+						return (0);
 
 }
