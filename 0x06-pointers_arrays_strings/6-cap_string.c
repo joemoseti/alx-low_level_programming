@@ -1,4 +1,3 @@
-es (28 sloc)  582 Bytes
 #include "main.h"
 /**
  * cap_string - capitalizes all words of a string
