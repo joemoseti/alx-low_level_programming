@@ -1,12 +1,13 @@
 #include "main.h"
-/**
- * strspn - gets the length of a prefix substring
- * @s: The main string to be scanned.
- * @accept: This string contains the list of characters to match in s
- * Return: return the count
- */
 
-unsigned int _strspn(char *s, char *accept);
+/**
+ * _strspn - Locates a character in a string
+ * @s: This is the main C string to be scanned.
+ * @accept: This is the string containing the list of characters to match in s
+ * Return: return count
+ **/
+
+unsigned int _strspn(char *s, char *accept)
 
 {
 	int i, j;
@@ -28,7 +29,7 @@ unsigned int _strspn(char *s, char *accept);
 				break;
 			}
 
-			j++; /*add j+1*/
+			j++;    /*add j+1*/
 		}
 
 		if (s[i] != accept[j]) /*If aren't equals*/
