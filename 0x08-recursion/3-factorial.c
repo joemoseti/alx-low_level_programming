@@ -15,6 +15,6 @@ int factorial(int n)
 	else if (n < 0) /*Base codition*/
 		return (-1);
 	else
-		return (n *factorial(n - 1)); /*Recursive call*/
+		return (n * factorial(n - 1)); /*Recursive call*/
 
 }
